@@ -8,7 +8,7 @@ class ForTestTest {
 
 	@Test
 	void testDoGetHttpServletRequestHttpServletResponse() {
-		System.out.println("TEST");
+		assertTrue(true);
 	}
 
 }
