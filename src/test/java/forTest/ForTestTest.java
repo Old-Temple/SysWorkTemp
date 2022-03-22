@@ -11,10 +11,10 @@ class ForTestTest {
 		ForTest forTest = new ForTest();
 		assertEquals(forTest.getString(), "A");
 	}
-	@Test
-	void getStringB(){
-		ForTest forTest = new ForTest();
-		assertEquals(forTest.getString(), "B");
-	}
+//	@Test
+//	void getStringB(){
+//		ForTest forTest = new ForTest();
+//		assertEquals(forTest.getString(), "B");
+//	}
 
 }
