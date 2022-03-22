@@ -39,5 +39,9 @@ public class ForTest extends HttpServlet {
 			printWriter.println("Disconnected");
 		}
 	}
+	
+	public String getString() {
+		return "A";
+	}
 
 }

@@ -7,8 +7,14 @@ import org.junit.jupiter.api.Test;
 class ForTestTest {
 
 	@Test
-	void testDoGetHttpServletRequestHttpServletResponse() {
-		assertTrue(true);
+	void getStringA(){
+		ForTest forTest = new ForTest();
+		assertEquals(forTest.getString(), "A");
+	}
+	@Test
+	void getStringB(){
+		ForTest forTest = new ForTest();
+		assertEquals(forTest.getString(), "B");
 	}
 
 }
